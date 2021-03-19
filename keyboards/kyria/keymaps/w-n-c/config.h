@@ -16,7 +16,11 @@
 
 #pragma once
 
-#define TAPPING_TERM 125
+
+// compile with handedness- 'kyria:w-n-c:dfu-split-right'
+#define EE_HANDS // define the keyboard sides in persistent storage EEPROM
+#define TAPPING_TERM 200
+#define IGNORE_MOD_TAP_INTERRUPT
 
 #ifdef OLED_DRIVER_ENABLE
   #define OLED_DISPLAY_128X64
