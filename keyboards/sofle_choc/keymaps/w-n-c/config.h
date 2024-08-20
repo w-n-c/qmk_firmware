@@ -10,3 +10,5 @@
 #define SPLIT_TRANSPORT_MIRROR
 // limits maximum brightness of LEDs (max 255). Higher may cause the controller to crash.
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 100
+// How long till mod tap triggers
+#define TAPPING_TERM 200
