@@ -11,4 +11,6 @@
 // limits maximum brightness of LEDs (max 255). Higher may cause the controller to crash.
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 100
 // How long till mod tap triggers
-#define TAPPING_TERM 200
+#define TAPPING_TERM 300
+// pressing another key while holding mod key within tapping term does same as if tapping term were held
+#define PERMISSIVE_HOLD
